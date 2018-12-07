@@ -162,7 +162,8 @@ Serial.println("Client disconnected");
 <p>note:these code must run serially</p>
 </blockquote>
 <p><strong>Result:</strong></p>
-<p>in result we will have this in the web page for controling the 2 LEDs that connected to pin 1 and pin 2 of our board.</p>
-<p><img src="https://lh3.googleusercontent.com/e7hIa7RHLz0XGwonNs4HsMxw3lBtZSrIZZLlEYW7WblBult7F55tUDxNhANBp50QM_abF5WDwVk" alt="enter code here" title="web"></p>
+<p>in result we will have this in the web page for controling the 2 LEDs that connected to pin 1 and pin 2 of our board.<br>
+<img src="https://picasaweb.google.com/109171916798758731280/6632365268500052321#6632365271315435874" alt="enter image description here" title="webserver"><br>
+<img src="https://lh3.googleusercontent.com/e7hIa7RHLz0XGwonNs4HsMxw3lBtZSrIZZLlEYW7WblBult7F55tUDxNhANBp50QM_abF5WDwVk" alt="enter code here" title="web"></p>
 <blockquote></blockquote>
 
