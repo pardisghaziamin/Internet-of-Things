@@ -1,9 +1,16 @@
 
+
+
 # LED control from webpage
  
-**First:**
-connect two LED to pin 1 and pin 2 and,
-set the Raspberry pi to control LED by each key on the website.
+## First:
+connect two **LED** to **Raspberry pi**,such a this:
+
+![enter image description here](https://lh3.googleusercontent.com/zqerRVpIxvI1L7-8FRx-L1dGCJv-ZRMZabXR_PSUjsS0lWk_Gnvwr11sxvRTyZ0ToFvOfEkIjIc "raspberry")
+
+
+## Second:
+set the **Raspberry pi** to control LED by each key on the website.
 run the python code below :
 
     from flask import Flask,render_template,request
@@ -47,7 +54,7 @@ run the python code below :
 
 "render_template" uses for calling a HTML code ('ledHTML.html')
 
-**Second:**
+## Third:
 
  Then, create a website for controling LED (Turn ON,Turn OFF,Blink)
 that, It has two group of key for each LED
@@ -158,14 +165,15 @@ with the HTML code below:
     </body>
     </html>
 
-part of this code is for login setting,the name of user saves in "login/myname"
+part of this code is for **login** setting,the name of user saves in "login/myname"
 also the key status saves in "my_command"
 
 > notice that these code are seperate.you should first run the python code,then open the web browser of Raspberry pi and search 127.0.0.1:5000/login/user ,so you can see the webpage controller.
 
-**Result:**
+ ## Result:
 
 it will apear on the browser:
 
-![enter image description here](https://lh3.googleusercontent.com/XhMMqNK7kztJwIZlhTgyfHaobBkwknkZfAq34BZZbQNPJrlfLa4ROzmu9uQZCJujaQ9Miex30dM "web")
+![enter image description here](https://lh3.googleusercontent.com/TtenWmIeVV7Jh1XO50psJxnJ3iM9S56AkoRDtG2RGqZnWHnyN9WHQyccU4MHqVdDim889g2vmt4 "web")
+
 
