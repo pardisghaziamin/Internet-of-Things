@@ -1,0 +1,51 @@
+<html>
+
+<head>
+  <style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+
+</script>
+</head>
+
+
+<body>
+
+<script type=text/javascript>
+    SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+  
+
+
+</script>
+
+
+
+
+
+
+
+
+
+<table style="width:100%">
+  <tr>
+    <th>Node Name</th>
+    <th>Sensor Type</th> 
+    <th>Values</th>
+  </tr>
+  <tr>
+ <td><span id="nodeName1"/></td>
+ <td><span  id="sensorName1"/></td>
+  <td><span id="value1"/></td>
+  </tr>
+  
+</table>
+
+
+
+
+</body>
+</html>
