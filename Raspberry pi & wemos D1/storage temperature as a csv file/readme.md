@@ -5,6 +5,20 @@
 ## First:
 Measuring **Temperature** & **Humidity** of the room by **wemos** using **DHT** sensor. for this,first connect DHT sensor to wemos such a this:
 
+![enter image description here](https://lh3.googleusercontent.com/xZUcjDZsGhf7x2UGa6II2oIZYrAM6q6xUnbsgdQKqg0AH8zEcAeZqDggyYmNjXnPGs8KWFqO9Ic "dht")
+
+
+ |DHT                         |wemos                        
+|----------------|-------------------------------|-----------------------------|
+pin 1           |vcc of wemos
+|pin 2          |pin 9 of wemos                      |
+|pin 4        |GND 
+
+![
+](https://lh3.googleusercontent.com/Qc7uKfHPMdP7drGH4bTeQA6lXCYFsF6wgT1W9TpyFJNoKNFNf_VIxbhtawaQkwOooRI7mv_dCtg "dht")
+
+
+
 >also you can use a removable disk to save data which is shown at this picture:
 
 
@@ -178,6 +192,10 @@ also it prints on the **terminal** of raspberry pi by this part of code:
     print("sensorType is :%s"%content['sensorType']) 
     print("Values are :%s"%content['values']) 
     print("Times are :%s"%content['timestamps'])
+it has shown on the picture below:
+
+![
+](https://lh3.googleusercontent.com/SXn7BcHy5X5HPSFUbirmyvDOa73fIsw7wD8Pms2IcWet51Z9zZs47pIXhDPc2fcynX_mBNZ6FoY "ter,inal")
 
 actually data saves on this **address** of raspberry pi :  "/media/root/C4C1-5415/data_logged.csv"
 by this part of code:
