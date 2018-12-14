@@ -110,6 +110,7 @@ run the code below on the wemos  to print temprature & humidity on the serial an
     }
 
 that is shown below:
+
 ![
 ](https://lh3.googleusercontent.com/wkL1sYAZvrTHrsRZn3RKloH6ZcasuJXog8_s_59DE8jM4Xn0RMH75jZFlLcl1IAEN57TFP1Ti0A "serial")
 
