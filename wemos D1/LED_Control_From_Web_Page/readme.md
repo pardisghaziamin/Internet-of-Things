@@ -1,8 +1,9 @@
+
 # LED control from webpage
  
-**First:**
-connect two LED to pin 1 and pin 2 and,
-set the wemos D1 to control LED by each key on the website.
+## First:
+connect two LED to **pin 1** and **pin 2** and,
+set the **wemos D1** to control LED by each key on the website.
 run the code below:
 
     #include <ESP8266WiFi.h>
@@ -112,9 +113,9 @@ run the code below:
     
     client.flush();
 
-**Second:**
+## Second:
 
- Then, create a website for controling LED (Turn ON,Turn OFF,Blink)
+ Then, create a **website** for controling LED (Turn ON,Turn OFF,Blink)
 that, It has two group of key for each LED
 with the below code:
 
@@ -151,9 +152,9 @@ with the below code:
     s += "<script>function blink2() {$.get(\"/blink2\");}</script>";
 
  
-**Third:**
+## Third:
 
-And in continue, for run the Javascript code ,use this code below:
+And in continue, for run the **Javascript** code ,use this code below:
 
     client.print(s);
     delay(1);
@@ -162,10 +163,12 @@ And in continue, for run the Javascript code ,use this code below:
 
 > note:these code must run serially
 
- **Result:**
+ ## Result:
 
-in result we will have this in the web page for controling the 2 LEDs that connected to pin 1 and pin 2 of our board.
+in result we will have this in the **web page** for controling the 2 LEDs that connected to pin 1 and pin 2 of our board.
+
 ![enter image description here](https://lh3.googleusercontent.com/rOa__l7ogEkW99qrLOfyS41YzUYXPEGn-3r8rZUr41ee6g3FiZrMWCUFy94T7m6r421fQA98WSI "web")
 > 
+
 
 
